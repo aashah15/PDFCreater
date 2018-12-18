@@ -4,22 +4,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="top">
-    <EditText
-        android:id="@+id/edit_text_content"
+    <TextView
+        android:id="@+id/text_view_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="top"
-        android:hint="Enter your content..."
+        android:hint="Click and Hold on any item after showing RecyclerView List to Create PDF File..."
         android:inputType="textMultiLine"
+        android:textSize="30sp"
         android:layout_margin="5dp"
         android:padding="20dp"
         android:lines="5"
         android:background="@drawable/border">
-    </EditText>
+    </TextView>
     <Button
-        android:id="@+id/button_create"
+        android:id="@+id/button_show_recycler_view"
         android:layout_width="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"
-        android:text="Create PDF"/>
+        android:text="Show RecyclerView List"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
 </LinearLayout>
